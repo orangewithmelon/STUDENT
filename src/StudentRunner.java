@@ -5,5 +5,8 @@ public class StudentRunner {
         System.out.println();
         Student student2 = new Student("Ryan", 45, 120.56);
         student2.studentInfo();
+        System.out.println();
+        Student student3 = new Student("Matthew", 50, 126.94);
+        student3.studentInfo();
     }
 }
